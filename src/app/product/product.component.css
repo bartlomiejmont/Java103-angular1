@@ -1,0 +1,11 @@
+.product {
+    border-style: solid;
+    width: max-content;
+    float: left;
+    padding: 30px;
+    margin: 30px;
+}
+
+.product-name{
+    margin-top: 0px;
+}

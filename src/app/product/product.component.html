@@ -1,0 +1,15 @@
+<div class="product">
+    <h3 class="product-name">
+        <a [title]="product.name + ' details'">
+            {{ product.name }}
+        </a>
+    </h3>
+    
+    <p *ngIf="product.description">
+        Description: {{ product.description }}
+    </p>
+    
+    <button (click)="handleClick()">
+        Share button
+    </button>
+</div>
